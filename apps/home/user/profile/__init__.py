@@ -2,7 +2,7 @@ import dash_html_components as html
 import dash_core_components as dcc
 
 layout = html.Div([
-    html.Label("HOME __init__"),
+    html.Label("PROFILE __init__"),
     dcc.Dropdown(
         options=[
             {'label': 'New York City', 'value': 'NYC'},

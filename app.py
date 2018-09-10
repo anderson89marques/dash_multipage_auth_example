@@ -12,5 +12,3 @@ app = dash.Dash()
 app.config.suppress_callback_exceptions = True
 
 BASE_DIR = os.path.dirname(__file__)
-#scan = Scan(BASE_DIR)
-#scan.scan()

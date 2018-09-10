@@ -2,10 +2,6 @@ import dash
 import dash_auth_scan
 import dash_core_components as dcc
 import dash_html_components as html
-import requests
-from dash.dependencies import Input, Output
-from flask import redirect, session, url_for
-from flask_dance.contrib.google import google, make_google_blueprint
 
 from app import BASE_DIR, app
 from dash_auth_scan.config import Configuration, GoogleAuthParams
@@ -19,8 +15,8 @@ app.layout = html.Div([
 ])
 
 authParams = GoogleAuthParams(
-    client_id="your client id",
-    client_secret="you secret id",
+    client_id="195482555134-gg24t6688v8tgtun2uqeat30s1ilo1ql.apps.googleusercontent.com",
+    client_secret="XYA0fLvxTexFdH3fgkb_c-z3",
     allowed_domains=['geru.com.br', 'gmail.com'],
     https=False
     )
