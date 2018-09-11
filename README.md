@@ -36,9 +36,9 @@ $ export OAUTHLIB_INSECURE_TRANSPORT=1
 $ python index.py
 ```
 
-# Convensão sobre Configuração, como a biblioteca funciona com módulos.
+# Convenção sobre Configuração, como a biblioteca funciona com módulos.
 
-Para usar a dash_auth_lib é preciso seguir umas convensões para conseguir criar as rotas automaticamente.
+Para usar a dash_auth_lib é preciso seguir umas convenções para conseguir criar as rotas automaticamente.
 As páginas dash devem está dentro do diretório chamado apps/
 ```
 - app.py
@@ -63,7 +63,7 @@ layout = html.Div([
 As rotas criadas são: ```['/', '/app1', '/app2']```, pois o módulo index.py é mapeado para ```'/'```, fora isso os nomes dos módulos serão a path da
 rota.
 
-# Convensão sobre configuração, como a biblioteca funciona com pacotes.
+# Convenção sobre configuração, como a biblioteca funciona com pacotes.
 
 ```
 - app.py
@@ -79,7 +79,7 @@ rota.
 
 No exemplo acima foi adicionado o pacote ```home``` que será o nome da path da url caso dentro do ```__init__.py``` tenha
 a variável ```layout```, assim a rota criada será ```/home```. 
-Dentro do pacote ```home``` foi adicionado o módulo ```account``` que segue a convensão do exemplo anterior, a única diferença é que a 
+Dentro do pacote ```home``` foi adicionado o módulo ```account``` que segue a convenção do exemplo anterior, a única diferença é que a 
 path criada será ```/home/account```.
 
-No código tem mais níveis que o mostrado aqui no README mostrando que a biblioteca consegue acessar vários níveis desde que sejam seguidas as convensões.
+No código tem mais níveis que o mostrado aqui no README mostrando que a biblioteca consegue acessar vários níveis desde que sejam seguidas as convenções.
