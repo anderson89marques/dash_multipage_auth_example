@@ -17,7 +17,7 @@ app.layout = html.Div([
 authParams = GoogleAuthParams(
     client_id="195482555134-gg24t6688v8tgtun2uqeat30s1ilo1ql.apps.googleusercontent.com",
     client_secret="XYA0fLvxTexFdH3fgkb_c-z3",
-    allowed_domains=['geru.com.br', 'gmail.com'],
+    allowed_domains=['gmail.com'],
     https=False
     )
 
